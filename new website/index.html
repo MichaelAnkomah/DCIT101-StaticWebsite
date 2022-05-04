@@ -1,0 +1,189 @@
+<doctype html>
+    <html>
+    <head>
+        <style>
+        /* Home Section */
+            #Home {
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(0,0,0,0.5);
+            }
+            #Home{
+                background: url(./yy.jpg) no-repeat center center/cover;
+                height: 900px;
+                width: 100%;
+             }
+             .main{
+                 margin: 250px;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+            }
+            .headings{
+                     font-family: 'Times New Roman', Times, serif;
+                     font-size: 60px;
+                     text-align: center;
+                     margin: 40px 0px;
+                     color: rgb(188, 66, 66);
+            }
+                 .btn{
+                     padding: 10px 35px;
+                     background-color: transparent;
+                     border: 1px solid wheat;
+                     color: rgb(253, 249, 249);
+                     outline: none;
+                     transition: .6s ease;
+                     }
+                 .btn:hover{
+                         cursor: pointer;
+                         background-color: rgb(132, 73, 73);
+                         box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+                         font-weight: bold;
+                         font-family: 'Courier New';
+
+                     }             
+                    .kk{
+                        font-family: Arial, Helvetica, sans-serif ;
+                     font-size: 20px;
+                     text-align: center;
+                     margin: 40px 0px;
+                     color: rgb(244, 237, 237);
+                    }
+                    .pp{
+                        font-family: Arial, Helvetica, sans-serif ;
+                     font-size: 60px;
+                     text-align: center;
+                     margin: 40px 0px;
+                     color: rgb(19, 18, 18);
+                    }
+            .text{
+                background-color:rgb(0, 0, 0);
+            }
+            ul li:hover{
+                background-color: rgb(0, 0, 0);
+            }
+            
+                .txt{
+                left: 10%;
+                top: 66%; 
+                width: 700px;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+            /* Navbar */ 
+            .navbar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(0,0,0,0.5);
+                position: sticky;
+                top: 0;
+            } 
+            .navbar ul{
+                display: flex;
+                list-style: none;
+                margin: 20px 0px;
+                
+            } 
+            .navbar ul li{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+            .navbar ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 8px 25px;
+                transition: all .5s ease;
+            }
+            /* About */
+            #about{
+                padding: 20px;
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                width: 575px;
+                /* height: 400px; */
+            }
+            #intro{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+            }
+            #intro h2{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+             
+             
+        
+    
+        </style>
+    </head>  
+    <body>
+        <nav class="navbar">
+        <ul type="none">
+        <li> <a href="#Home">Home</a></li>
+        <li> <a href="#About"> About</a></li>
+        <li> <a href="#Pricing"> Pricing</a></li>
+        <li> <a href=""> Contact</a></li>
+        <li> <a href=""> Places</a></li>
+        
+    
+        </ul>
+        </nav>
+
+        <selection id="Home">
+            <div class="main">
+                <h3 class="headings">
+                    LUXO EMPORIUM
+                    </h3> <P class="kk">
+                        CUSTOMER FIRST
+                    </P>
+                    <button class="btn">
+                        PLACE ORDER  
+                    </button>
+            </div>
+        </selection>
+
+            <selection id="About">
+                        <h1 class="headings"> ABOUT SERVICE </h1>
+                        <img src="./ik.jpeg" alt="">
+                        <div id="intro">
+                             <h2>LUXO EMPORIUM</h2>
+                              <p>
+                                European sneaker retailer that seeks to satisfy the needs of sportspersons. 
+                                If you are looking for sneakers that are new and popular in the market, Sneakernstuff is the store for you to shop. 
+                                It frequently enters into collaborations with footwear brands to give their customers the best experience and products.
+                              </p>
+                        </div>
+            </selection>
+
+        
+            <selection id="Pricing">
+                <div class="pp">
+                    <h4 class="headings">
+                        <img src="./ppx2.webp" alt="">
+
+                    
+                </div>
+            </selection>
+    
+    
+    </body>
+    </html>
